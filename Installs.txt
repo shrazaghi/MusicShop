@@ -1,0 +1,45 @@
+npm install -g npm@9.8.1
+npm install -g @angular/cli
+
+
+
+--------------- links --------------- 
+https://angular.io/cli
+https://www.npmjs.com/package/npm
+https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-7.0
+
+
+## Add Authentication
+https://code-maze.com/angular-authentication-aspnet-identity/
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------- Additional ---------------------
+
+------ng sample 1 ------ 
+ng new my-first-project
+cd my-first-project
+ng serve
+
+----------- git ---------------
+git remote  add Origin https://github.com/shrazaghi/MusicShop.git
+git push --set-upstream Origin master
+
+
+
+
+
+
+
+
+
