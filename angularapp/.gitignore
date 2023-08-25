@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+# Only exists if Bazel was run
 /bazel-out
 
 # Node
@@ -12,12 +13,15 @@ npm-debug.log
 yarn-error.log
 
 # IDEs and editors
-.idea/
+.idea/*
+!.idea/runConfigurations/
+!.idea/codeStyleSettings.xml
 .project
 .classpath
 .c9/
 *.launch
 .settings/
+xcuserdata/
 *.sublime-workspace
 
 # Visual Studio Code
@@ -36,7 +40,39 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+npm-debug.log
+yarn-error.log
+/reports
+/src/translations/template.*
+# /src/environments/.env.*
 
 # System files
+.DS_Store
+Thumbs.db
+
+
+
+
+
+# Added by https://medium.com/knowledge-pills/file-gitignore-in-angular-project-c1d4483a79aa
+
+
+# Cordova
+/www
+/plugins
+/platforms
+
+# Electron
+/dist-electron
+/dist-packages
+/electron.main.js
+
+# Maven
+/target
+/log
+
+
+
+# System Files
 .DS_Store
 Thumbs.db

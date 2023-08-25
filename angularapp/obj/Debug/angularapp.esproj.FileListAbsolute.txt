@@ -1,0 +1,1 @@
+E:\TestProject\AngularNetCore\MusicShop\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
